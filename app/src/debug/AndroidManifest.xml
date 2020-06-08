@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tejas.tdd_take1">
+
+    <application android:name=".TDDApplication">
+        <activity android:name=".ui.common.baseActivityTestDouble.TestBaseActivityHelper" />
+        <activity android:name=".ui.common.baseActivityTestDouble.TestInjectableBaseActivityHelper" />
+    </application>
+</manifest>
